@@ -1,7 +1,7 @@
 #!/bin/bash
 VERSION="V3.3.0-12"
 A=0
-[ -n "$OP_TARGET" ] || OP_TARGET="X64"
+[ -n "$OP_TARGET" ] || OP_TARGET="K2P"
 case "$OP_TARGET" in
 	X64)path="X64";;
 	R7800)path="R7800";;
